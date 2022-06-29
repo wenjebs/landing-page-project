@@ -37,7 +37,7 @@ a {
 
 .hero-button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     border: 0px;
     
 }
@@ -47,4 +47,21 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+
+/* css for quote section */
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+/* css for signup section */
+
+
+/* css for footer */
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
