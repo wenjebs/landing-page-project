@@ -32,6 +32,7 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin-right: 1em;
 }
 
 .hero-header {
@@ -41,25 +42,49 @@ a {
 .hero-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-left: 160px;
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0;
 }
 
 .hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 0px;
-    
+    padding: 0;
+    width: 7em;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    padding: 0.25em;
+}
+
+.image-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: auto;
+    height: 225px;
 }
 /* css for information section */
 
