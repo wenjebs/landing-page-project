@@ -1,7 +1,12 @@
 * {
     font-family: 'Roboto', sans-serif;
-/* css for the top dark blue part */
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* css for the top dark blue part */
 .header-container {
     background-color: #1F2937;
 }
@@ -102,6 +107,10 @@ a {
     color: #1F2937;
 }
 
+.imagebox{
+    width: 300px;
+    height: auto;
+}
 .images {
     display: flex;
     gap: 1em;
