@@ -88,12 +88,24 @@ a {
 }
 /* css for information section */
 
+.information-container {
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .random-information {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
+.images {
+    display: flex;
+    gap: 1em;
+}
 
 /* css for quote section */
 
