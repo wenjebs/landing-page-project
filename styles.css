@@ -152,7 +152,25 @@ a {
 }
 
 /* css for signup section */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 0 600px 0;
+    border: solid #3882F6; 10px;
+    border-radius: 10px;
+}
 
+
+.sign-up-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5em;
+}
+
+.signup-button {
+}
 
 /* css for footer */
 
