@@ -105,15 +105,21 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 1em;
 }
 
 .imagebox{
-    width: 300px;
+    width: 175px;
     height: auto;
+}
+
+.infoimage {
+    border: #3882F6 solid 4px;
+    border-radius: 16px;
 }
 .images {
     display: flex;
-    gap: 1em;
+    gap: 3em;
 }
 
 /* css for quote section */
