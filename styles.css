@@ -157,9 +157,12 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    margin: 150px 800px ;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
     border: solid #3882F6; 10px;
     border-radius: 10px;
+    width: 1000px;
 }
 
 
@@ -177,6 +180,8 @@ a {
 }
 
 .signup-button {
+    padding-right: 15%;
+    borde
 }
 
 /* css for footer */
