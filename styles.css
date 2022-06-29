@@ -94,8 +94,10 @@ a {
 /* css for information section */
 
 .information-container {
+    padding: 80px;
     margin-left: 160px;
     margin-right: 160px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,6 +128,27 @@ a {
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote {
+    font-size: xx-large;
+    font-style: italic;
+    width: 800px;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.quotee {
+    width: 800px;
+    align-self: flex-end;
+    margin-right: 9em;
+    font-weight: bolder;
+    font-size: large;
 }
 
 /* css for signup section */
