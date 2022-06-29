@@ -131,7 +131,7 @@ a {
     padding: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -145,10 +145,10 @@ a {
 
 .quotee {
     width: 800px;
-    align-self: flex-end;
-    margin-right: 9em;
     font-weight: bolder;
     font-size: large;
+    align-self: center;
+    text-align: end;
 }
 
 /* css for signup section */
@@ -157,7 +157,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    margin: 0 600px 0;
+    margin: 150px 800px ;
     border: solid #3882F6; 10px;
     border-radius: 10px;
 }
@@ -166,7 +166,14 @@ a {
 .sign-up-text {
     color: #F9FAF8;
     font-weight: bold;
-    padding: 5em;
+    font-size: xx-large;
+    padding: 50px;
+    width: 75%;
+}
+
+.sign-description {
+    font-size:large;
+    font-weight: lighter;
 }
 
 .signup-button {
