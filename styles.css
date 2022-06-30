@@ -112,6 +112,7 @@ a {
     font-weight: bolder;
     color: #1F2937;
     margin: 1em;
+    text-align: center;
 }
 
 .imagebox{
@@ -127,6 +128,7 @@ a {
     display: flex;
     gap: 3em;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* css for quote section */
