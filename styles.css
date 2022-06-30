@@ -140,7 +140,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 800px;
 }
 
 .quote {
